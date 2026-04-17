@@ -1,0 +1,7 @@
+.border {
+	-fx-background-image: url('/images/resultWon.png');
+}
+
+.button {
+	-fx-background-color: white
+}

@@ -1,0 +1,35 @@
+
+.server-status {
+    -fx-text-fill: #27ae60;
+    -fx-font-weight: bold;
+}
+
+.client-count {
+    -fx-text-fill: #f39c12;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.game-log {
+    -fx-font-family: "Monospaced";
+    -fx-font-size: 12px;
+}
+
+.stop-button {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.stop-button:hover {
+    -fx-background-color: #c0392b;
+}
+
+.refresh-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.refresh-button:hover {
+    -fx-background-color: #2980b9;
+}

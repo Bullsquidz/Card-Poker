@@ -1,0 +1,7 @@
+.border{
+	-fx-background-image: url('/images/title.png');
+}
+
+.button{
+	-fx-font-size: 12px;
+}

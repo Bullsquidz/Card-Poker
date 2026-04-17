@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" 
+     fx:id = "borderPane" styleClass="border" fx:controller = "WelcomeController">
+
+<center><VBox xmlns:fx="http://javafx.com/fxml/1" spacing="10" alignment="CENTER">
+	 
+    <TextField fx:id = "serverIP" promptText="Enter Server IP..." maxWidth= "250"/>
+    <TextField fx:id = "serverPort" promptText="Enter Server Port..." maxWidth= "250"/>
+    <Button fx:id = "joinServer" text = "Join Server" />
+	
+    </VBox></center>
+</BorderPane>

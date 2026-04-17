@@ -1,0 +1,47 @@
+.border {
+	-fx-background-image: url('/images/table.png');
+}
+
+.button {
+	-fx-background-color: yellow
+}
+
+#A{
+	-fx-background-color:red
+}
+
+#anteWager{
+	-fx-background-color:red
+}
+
+#PP{
+	-fx-background-color:lightblue
+}
+#pairPlusWager{
+	-fx-background-color:lightblue
+}
+#P{
+	-fx-background-color:purple
+}
+#playWager{
+	-fx-background-color:purple
+}
+
+#T{
+	-fx-background-color:skyblue
+}
+#totalWinning{
+	-fx-background-color:skyblue
+}
+
+.text-area{
+	text-area-background:lightgrey
+}
+
+.text-area .content{
+	-fx-background-color: text-area-background;
+}
+
+.tool-bar{
+	-fx-background-color: lightgrey
+}
